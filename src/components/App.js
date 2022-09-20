@@ -24,7 +24,7 @@ class App extends React.Component {
   };
   render() {
     return (
-      <div>
+      <div className="ui container">
         <SearchBar search={this.searchFor} />
         <ChosenVideo vidSrc={this.state.videoSrc} />
         <VideoList list={this.state.video} videosId={this.VeiwVedio} />

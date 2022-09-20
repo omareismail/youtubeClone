@@ -15,7 +15,7 @@ class VideoList extends React.Component {
     return videos;
   }
   render() {
-    return <div className="ui relaxed divided list">{this.getVideo()}</div>;
+    return <div className="ui link cards">{this.getVideo()}</div>;
   }
 }
 
